@@ -1,0 +1,51 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*html,
+body,
+header,
+#intro {
+    height: 100%;
+}*/
+/*.top-nav-collapse, .page-footer {
+    background-color: #563e91 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+
+//carousel    
+}*/
+.carousel-item {
+  height: 100vh;    
+  width: 100%;          /* vh-Relative to 1% of the height of the viewport*/
+  min-height: 350px;
+  background: no-repeat;   /*remove center center scroll*/
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;                Numbers followed by -webkit-, -moz-, or -o- specify the first version that worked with a prefix.*/
+  /*-o-background-size: cover;*/
+  background-size: cover;               /*cover-->	Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges*/
+}/*
+@media (orientation: portrait) { 
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+        width:100%;
+        height:auto;
+    }
+}
+
+@media (orientation: landscape) { 
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+        display: block;
+        width:100%;
+        height:96vh;
+    }
+}
+*/
+

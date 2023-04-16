@@ -1,0 +1,18 @@
+
+	// $("#btnaddservice").click(function(){
+		// alert(1111);
+		// data=$("#serviceform").serialize()
+		// alert(data)
+		// $.ajax({
+			// url: "../../ajax/adminpower1.php",
+			// data: data,
+			// type: "post",
+			// success: function(res){/**/
+				// $("#errservice").html("please wait...")
+				// setTimeout(function(){
+					// $("#errservice").html(res)
+				// },1000)                     //image issue  :(
+	// 		}
+	// 	})
+
+	// })

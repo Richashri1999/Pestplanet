@@ -1,0 +1,56 @@
+/**
+{
+	padding:0;
+	margin: 0;
+}*/
+/*services-middle-1*/
+.overlay
+{
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	background: linear-gradient(lightgrey,lightblue	);
+    /*color: white;*/
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    /*opacity: 0;*/
+    height: 30%;
+    transition: 0.3s ease;
+    /*border-radius: 12px;*/
+    overflow: hidden;
+    border-bottom: 2px solid #68051c;
+}
+.overlayparentdiv:hover .overlay
+{
+	/*opacity: 1;*/
+	/*height: 100%;*/
+	height: 70%;
+
+}
+ .overlayparentdiv :hover
+{
+	box-shadow: 2px 2px 2px 2px #68051c;
+
+}
+.overlayparentdiv 
+{
+	border:2px solid lightgrey;
+	border-radius: 12px;
+
+}
+.overlayparentdiv img
+{
+	width: 250px;
+    height: 240px; 
+    /*border: 2px dotted ;*/
+    border-radius: 12px;
+  
+}
+.richmiddle
+{
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;	
+}
+/*index--user- navbar*/
+/*style tag header*/
